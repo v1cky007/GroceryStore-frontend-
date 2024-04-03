@@ -1,0 +1,34 @@
+
+.Privacy {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .PrivacyHeading {
+    color: #333;
+    text-align: center;
+  }
+  
+  .SectionHeading {
+    margin-top: 20px;
+    color: rgb(8, 162, 8);
+  }
+  
+  .Pprivacy {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .SectionHeading,
+  .Pprivacy {
+    font-size: 18px;
+  }
+  
+  .LastUpdated {
+    margin-top: 20px;
+    color: #777;
+    font-size: 12px;
+  }
+  

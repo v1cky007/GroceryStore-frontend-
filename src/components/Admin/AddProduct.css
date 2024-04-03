@@ -1,0 +1,42 @@
+
+.AddProductContainer {
+    text-align: center;
+}
+
+.AddProductHHEading {
+    font-size: 20px;
+    color: green;
+    margin-top: 30px;
+}
+
+.AddProductContents {
+    margin-top: 50px;
+}
+
+.AddProductInputs {
+    margin-top: 10px;
+}
+
+.AddProductInputs input {
+    height: 30px;
+    width: 300px;
+}
+
+ .AddProductSumbit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    margin-left: 500px;
+    background: rgb(14, 209, 69);
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor:pointer;
+}
+
+.AddProductInputs button:disabled {
+    background-color: green;
+}

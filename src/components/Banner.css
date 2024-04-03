@@ -1,0 +1,41 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+
+.bcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    background-image: url(https://img.freepik.com/premium-photo/healthy-organic-food-fresh-vegetables-fruits-white-wooden-background-free-space-your-text_187166-16142.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+    font-family: 'Lora', serif;
+    
+    
+  }
+  
+
+  
+  .btext {
+    margin-top: 8px;
+    margin-right: 100vh;
+    color: black; /* Adjust the text color */
+    font-family: 'Lora', serif;
+  }
+  
+  .bbutton {
+    background-color: #4caf50; /* Adjust the button color */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  

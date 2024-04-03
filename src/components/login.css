@@ -1,0 +1,115 @@
+
+.Logincontainer{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    width: 600px;
+    height: max-content;
+    background: floralwhite;
+    padding-bottom: 30px;
+}
+
+.Loginheader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+
+}
+.Logintext{
+    color: rgb(14, 209, 69);
+    font-size: 48px;
+    font-weight: 700;
+}
+.Loginunderline{
+    width: 61px;
+    height: 6px;
+    background: rgb(14, 209, 69);
+    border-radius: 9px;
+}
+.Logininputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.Logininput{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+.Logininput img{
+    margin: 0px 30px;
+}
+.Logininput input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+
+}
+.Loginforgot-password{
+    padding-left: 62px;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 18px;
+}
+.Loginforgot-password span{
+    color: rgb(14, 209, 69);
+    cursor: pointer;
+}
+.Loginsubmit-container{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+.Loginforgot-password{
+    margin-left: 125px;
+}
+.Loginforgot-password a{
+    
+    color: rgb(14, 209, 69);
+}
+.Loginsubmit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: rgb(14, 209, 69);
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor:pointer;
+}
+.gray{
+    background: #eaeaea;
+    color: #676767;
+
+}
+.Loginsubmit:hover {
+    background: rgb(10, 180, 10);
+    color: #fff;
+}
+.gray:hover {
+    background: #dcdcdc; 
+    color: #545151; 
+}
+.error-message{
+    padding-left: 175px;
+    margin-top: 27px;
+    color: red;
+    font-size: 18px;
+
+}

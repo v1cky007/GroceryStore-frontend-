@@ -1,0 +1,65 @@
+/* Add your existing CSS styles here */
+
+/* Sidebar Styles */
+.Sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  
+  /* AdminPage Styles */
+  .AdminPageContainer {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .AdminPageContent {
+    margin-left: 250px;
+    
+    margin-top: 120px;
+  }
+  
+  .AdminPageHeading {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 20px;
+    color: green;
+  }
+  
+  .AdminStatsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    gap: 75px;
+  }
+  
+  .AdminStatBox {
+    padding: 10px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+    height: 60px;
+    width: 300px;
+    border-radius: 8px;
+  }
+  
+  .EarningsMonthly {
+    background-color: #f0f8e9;
+  }
+  
+  .EarningsAnnual {
+    background-color: #e3f2fd;
+  }
+  
+  .Tasks {
+    background-color: #fce4ec;
+  }
+  
+  .PendingRequests {
+    background-color: #ffecb3;
+  }
+  
+  /* Additional styles for Add, Update, and Product components can be added here */
+  
+  

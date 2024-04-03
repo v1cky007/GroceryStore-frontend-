@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.Fcontainer {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  min-height: 75vh;
+  background:white;
+  
+}
+
+.Fcontainer .Fcard {
+  position: relative;
+  min-width: 320px;
+  height: 400px;
+  box-shadow: inset 5px 5px 5px rgb(14, 209, 69),
+    inset -5px -5px 15px rgba(97, 255, 118, 0.905),
+    5px 5px 15px rgb(14, 209, 69), -5px -5px 15px rgba(97, 255, 118, 0.905);
+  border-radius: 15px;
+  margin: 30px;
+  transition: 0.5s;
+}
+.Fcontainer .Fcard .Fbox .Fcontent .Fbox-image{
+  margin-top: 1px;
+  width: 200px;
+  height: 150px;
+}
+
+.Fcontainer .Fcard:nth-child(1) .Fbox .Fcontent a {
+  background: white;
+}
+
+.Fcontainer .Fcard:nth-child(2) .Fbox .Fcontent a {
+  background: white;
+}
+
+.Fcontainer .Fcard:nth-child(3) .Fbox .Fcontent a {
+  background: white;
+}
+
+.Fcontainer .Fcard .Fbox {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: rgba(0, 109, 15, 0.905);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.Fcontainer.Fcard.Fbox .Fcontent img{
+  height: 15rem;
+  margin: 1rem 0;
+}
+
+.Fcontainer .Fcard .Fbox:hover {
+  transform: translateY(-50px);
+}
+
+.Fcontainer .Fcard .Fbox:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.Fcontainer .Fcard .Fbox .Fcontent {
+  padding: 20px;
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Lora', serif;
+}
+
+.Fcontainer .Fcard .Fbox .Fcontent h2 {
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  font-size: 8rem;
+  color: rgba(255, 255, 255, 0.362);
+}
+
+.Fcontainer .Fcard .Fbox .Fcontent h3 {
+  font-family: 'Lora', serif;
+  margin-top: 20px;
+  color: #fff;
+  z-index: 1;
+  transition: 0.5s;
+  
+}
+
+.Fcontainer .Fcard .Fbox .Fcontent p {
+  
+  font-family: 'Lora', serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.9);
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.Fcontainer .Fcard .Fbox .Fcontent a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  background: black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  margin-top: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+.Fcontainer .Fcard .Fbox .Fcontent a:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  background: rgba(0, 152, 20, 0.905);
+  color: #000;
+}

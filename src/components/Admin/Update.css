@@ -1,0 +1,27 @@
+.update-heading {
+    text-align: center;
+    font-size: 20px;
+    color: orange;
+    margin-top: 30px;
+  }
+  
+  .update-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .input-field {
+    text-align: center;
+    height: 30px;
+    width: 300px;
+  }
+  
+  .update-button {
+    width: 150px;
+    margin-top: 10px;
+    background-color: #8bc34a;
+    margin-left: 80px;
+    text-align: center;
+  }
+  

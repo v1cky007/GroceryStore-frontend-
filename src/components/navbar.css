@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+
+.NAV {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(23, 211, 23);
+  font-family: 'Lora', serif;
+  text-transform: uppercase;
+  text-align: center;
+  
+}
+
+.NAV * {
+  box-sizing: border-box;
+  transition: all 0.35s ease;
+}
+
+.NAV li {
+  font-family: 'Lora', serif;
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em 1em;
+  padding: 0;
+}
+
+.NAV a {
+  padding: 0.5em 0.8em;
+  color:black;
+  position: relative;
+  font-family: 'Lora', serif;
+  text-decoration: none;
+  font-size: large;
+}
+
+
+.NAV a::before,
+.NAV a::after {
+  content: '';
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  transition: all 0.35s ease;
+  opacity: 0;
+  text-decoration: none;
+}
+
+.NAV a::before {
+  content: '';
+  right: 0;
+  top: 0;
+  border-top: 3px solid #2a5f0c;
+  border-right: 3px solid #2a5f0c;
+  transform: translate(-100%, 50%);
+  text-decoration: none;
+}
+
+
+.NAV a:after {
+  content: '';
+  left: 0;
+  bottom: 0;
+  border-bottom: 3px solid #2E640F;
+  border-left: 3px solid #3E8914;
+  transform: translate(100%, -50%);
+  text-decoration: none;
+}
+
+.NAV a:hover:before,
+.NAV a:hover:after {
+  transform: translate(0, 0);
+  opacity: 1;
+  text-decoration: none;
+}
+
+.NAV a:hover {
+  color: #167032;
+  text-decoration: none;
+}

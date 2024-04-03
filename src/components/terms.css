@@ -1,0 +1,38 @@
+/* TermsAndConditions.css */
+
+.Terms {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .TermsHeading {
+    color: #333;
+    text-align: center;
+  }
+  
+  .CHeading {
+    margin-top: 20px;
+    color: rgb(8, 162, 8);
+  }
+  
+  .Pterms {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .CHeading,
+  .Pterms {
+    font-size: 18px;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

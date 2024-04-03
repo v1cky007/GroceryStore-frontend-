@@ -1,0 +1,28 @@
+/* FAQ.css */
+
+.FAQ {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .FAQHeading {
+    color: #333;
+    text-align: center;
+  }
+  
+  .Question {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    color: #007bff;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  

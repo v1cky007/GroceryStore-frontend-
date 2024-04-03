@@ -1,0 +1,111 @@
+/* signup.css */
+
+.SignUpcontainer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    width: 600px;
+    height: max-content;
+    background: floralwhite;
+    padding-bottom: 30px;
+}
+
+.SignUpheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.SignUptext {
+    color: rgb(14, 209, 69);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.SignUpunderline {
+    width: 61px;
+    height: 6px;
+    background: rgb(14, 209, 69);
+    border-radius: 9px;
+}
+
+.SignUpinputs {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.SignUpinput {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+
+.SignUpinput img {
+    margin: 0px 30px;
+}
+
+.SignUpinput input {
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+
+.SignUpcreate {
+    margin-left: 125px;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 18px;
+}
+
+.SignUpcreate a {
+    color: rgb(14, 209, 69);
+}
+
+.SignUpsubmit-container {
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+.SignUpsubmit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: rgb(14, 209, 69);
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gray {
+    background: #eaeaea;
+    color: #676767;
+}
+
+.SignUpsubmit:hover {
+    background: rgb(10, 180, 10);
+    color: #fff;
+}
+
+.gray:hover {
+    background: #dcdcdc;
+    color: #545151;
+}
